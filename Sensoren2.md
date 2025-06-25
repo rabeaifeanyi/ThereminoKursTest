@@ -1,1 +1,1 @@
-## Sensoren 2 - Phototransistor anschließen
+## Sensoren 2 - Phototransistor anschließen (OPTIONAL)
