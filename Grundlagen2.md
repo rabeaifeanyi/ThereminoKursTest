@@ -9,9 +9,31 @@ Ein Widerstand ist ein elektrisches Bauteil, an dem Spannung abfällt. Wenn man 
 **Breadboard**  
 Das Breadboard ist der Ort, an dem Ihr Eure Schaltung aufbauen könnt. Normalerweise werden Schaltungen verlötet, damit sie lange halten. Mit einem Breadboard kann man jedoch sehr schnell Schaltungen stecken und sie auch wieder abbauen. Bestimmte Steckplätze auf dem Breaboard sind miteinander verbunden.  
 **2 Kabel (rot und schwarz)**  
-Mit den Kabel verbinden wir unsere Bauteile.Ein Konvention, an die wir uns halten wollen, ist: Alle Kabel, die zum Pluspol (5V) führen, sind <span style="color:red"> rot </span>, alle Kabel, die zum Minuspol (Gnd) führen, sind **schwarz**.  
+Mit den Kabel verbinden wir unsere Bauteile.Ein Konvention, an die wir uns halten wollen, ist: Alle Kabel, die zum Pluspol (5V) führen, sind <a style=“color:red“> rot </a>, alle Kabel, die zum Minuspol (Gnd) führen, sind schwarz.  
 
 Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schauen. Dieser sieht wie folgt aus:
-![Schaltplan LED](LEDanUNO_Steckplatine.png)
+<img src="LEDanUNO_Steckplatine.png" width="300" alt="Schaltplan LED." border="3" align="left">  
 
+
+```
+#define ledPin D7
+
+void setup() {
+ pinMode(ledPin, OUTPUT);
+
+ digitalWrite(ledPin,HIGH);
+ delay(500);
+ digitalWrite(ledPin,LOW);
+ delay(500);
+}
+
+void loop() {
+
+ // digitalWrite(ledPin,HIGH);
+ // delay(500);
+ // digitalWrite(ledPin,LOW);
+ // delay(500);
+}
+
+```
 <a href="https://github.com/eg-lab/ThereminoKurs/blob/main/Grundlagen3.md"> Weiter zu Grundlagen 3 </a>
