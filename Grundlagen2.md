@@ -20,19 +20,14 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
 
 void setup() {
  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
 
  digitalWrite(ledPin,HIGH);
  delay(500);
  digitalWrite(ledPin,LOW);
  delay(500);
-}
-
-void loop() {
-
- // digitalWrite(ledPin,HIGH);
- // delay(500);
- // digitalWrite(ledPin,LOW);
- // delay(500);
 }
 
 ```
