@@ -1,1 +1,1 @@
-## Grundlagen 6 - Eine Meldoie spielen
+## Grundlagen 6 - Eine Melodie spielen
