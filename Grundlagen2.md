@@ -13,3 +13,5 @@ Mit den Kabel verbinden wir unsere Bauteile.Ein Konvention, an die wir uns halte
 
 Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schauen. Dieser sieht wie folgt aus:
 ![Schaltplan LED](LEDanUNO_Steckplatine.png)
+
+<a href="https://github.com/eg-lab/ThereminoKurs/blob/main/Grundlagen3.md"> Weiter zu Grundlagen 3 </a>
