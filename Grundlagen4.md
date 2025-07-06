@@ -2,9 +2,9 @@
 
 **In diesem Kapitel lernst du, wie du den Button mit einer LED verbindest.**  
 
-Die LED soll leuchten, solange du den Button gedrückt hältst. Damit das funktioniert, müssen wir zunächst ein neues Konzept verstehen: **Bedingung**. Mit `if` (wenn) kannst du dem Arduino sagen:
+Die LED soll leuchten, solange du den Button gedrückt hältst. Damit das funktioniert, müssen wir zunächst ein neues Konzept verstehen: **Bedingungen**. Mit `if` (wenn) kannst du dem Arduino sagen:
 
-> ***Wenn** eine Bedingung stimmt, mache etwas.*
+> ***Wenn** eine Bedingung stimmt, mache etwas.*<br>
 > ***Sonst** mache etwas anderes.*
 
 **Beispiel:**
@@ -53,7 +53,7 @@ Verwende einfach den Aufbau aus **Grundlagen 3**.
 
 3. Öffne den Serial Monitor. Drücke den Button und schaue, ob der Text sich ändert.
 
-> 💡 *Wenn du `INPUT_PULLUP` nutzt, bedeutet das:*
+> 💡 *Wenn du `INPUT_PULLUP` nutzt, bedeutet das:*<br>
 > Nicht gedrückt = `HIGH` (1)  
 > Gedrückt = `LOW` (0)
 
@@ -69,8 +69,8 @@ Jetzt sollst du deinen eigenen Code schreiben, der die LED steuert.
 1. Baue die Schaltung aus dem Schaltplan nach.  
    - Ein Pin des Buttons wird mit GND verbunden.  
    - Der andere Pin geht an D1.  
-   - Die LED wird mit einem Vorwiderstand an D2 angeschlossen.  
-   - Achte darauf, dass das lange Bein der LED an D2 angeschlossen ist.
+   - Die LED wird mit einem Vorwiderstand an D7 angeschlossen.  
+   - Achte darauf, dass das lange Bein der LED an D7 angeschlossen ist.
 2. Schreibe **deinen eigenen Code**, der folgendes tut:
    - Den Status des Buttons lesen.
    - Mit `if` prüfen, ob der Button gedrückt ist.
