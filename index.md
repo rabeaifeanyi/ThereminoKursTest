@@ -1,3 +1,8 @@
+---
+layout: home
+title: Willkommen
+---
+
 # Theremino 
 
 ##  Baue dein eigenes Musikinstrument mit einem Arduino

@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Grundlagen 1
+layout: post
+title: Grundlagen 1 – LED anschließen
 ---
 
 ## Grundlagen 1 - Den Arduino kennenlernen
