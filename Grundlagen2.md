@@ -1,3 +1,8 @@
+---
+layout: default
+title: Grundlagen 1
+---
+
 # Grundlagen 2 - LED anschließen 💡
 
 [🏠 Start](index) \| [📚 Kapitelübersicht](Kapiteluebersicht)
