@@ -44,6 +44,4 @@ Damit wir sehen können, ob der Button gedrückt ist, geben wir den Status im Se
 > 💡 *Warum kommt 1, wenn der Button nicht gedrückt ist?
 > Wir nutzen `INPUT_PULLUP`. Das bedeutet, der Pin wird vom Arduino intern auf `HIGH` gezogen. Wenn du den Button drückst, wird der Pin auf GND gezogen – dann ist er `LOW`.*
 
-<a href="https://github.com/eg-lab/ThereminoKurs/blob/main/Grundlagen4.md">Weiter zu Grundlagen 4</a>
-
-[Weiter zu Grundlagen 4](Grundlagen4) | [Zurück zur Kapitelübersicht](Kapiteluebersicht)
+[Weiter zu Grundlagen 4](Grundlagen4) || [Zurück zur Kapitelübersicht](Kapiteluebersicht)
