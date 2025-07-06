@@ -1,0 +1,16 @@
+header.site-header {
+    display: none;
+  }
+  
+  footer.site-footer {
+    display: none;
+  }
+  
+  h1.project-name {
+    display: none;
+  }
+  
+  h2.project-tagline {
+    display: none;
+  }
+  
