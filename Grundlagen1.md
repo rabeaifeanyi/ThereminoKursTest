@@ -100,4 +100,4 @@ Kommentare macht man mit //
 
 Das müsste alles sein für das Thema, fas muss aber noch alles angepasst werden.
 
-[Weiter zu Grundlagen 2](Grundlagen2) | [Zurück zur Kapitelübersicht](Kapiteluebersicht)
+[Weiter zu Grundlagen 2](Grundlagen2) \| [Zurück zur Kapitelübersicht](Kapiteluebersicht)
