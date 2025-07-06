@@ -28,6 +28,7 @@ Bevor du die LED anschließt, probiere zunächst noch einmal folgenden Code aus,
 Verwende einfach den Aufbau aus **Grundlagen 3**.
 
 2. **Code:**
+
     ```cpp
     #define BUTTON_PIN D1
 
@@ -61,7 +62,6 @@ Wenn das funktioniert, kannst du nun die LED hinzufügen. Wenn nicht, frag nochm
 
 <p align="center"><img src="img/Schaltung_g4.jpg" width="500" alt="Schaltplan Button und LED"></p>
 
-
 ## 🛠️ Aufgabe: LED mit dem Button steuern
 
 Jetzt sollst du deinen eigenen Code schreiben, der die LED steuert.
@@ -80,7 +80,6 @@ Jetzt sollst du deinen eigenen Code schreiben, der die LED steuert.
 
 > 💡 *Tipp: Falls du nicht weiterweißt, schaue dir den Code aus den Grundlagen 3 (Button lesen) und den Code aus den Grundlagen 2 (LED blinken) an und kombiniere beide Ideen.*
 
-
 ---
 
 ## ✨ Bonusaufgabe für ganz Schnelle
@@ -88,6 +87,7 @@ Jetzt sollst du deinen eigenen Code schreiben, der die LED steuert.
 **Kannst du den Button so programmieren, dass die LED bei jedem Drücken umschaltet?**
 
 **Beispiel:**
+
 - Beim ersten Druck geht die LED an.
 - Beim zweiten Druck geht sie aus.
 - Beim dritten Druck wieder an.
