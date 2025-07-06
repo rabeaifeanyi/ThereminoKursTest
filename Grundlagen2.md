@@ -54,5 +54,4 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
 
 > *💡 Tipp: Wenn du nichts beobachten kannst, überprüfe bitte deine Schaltung.*
 
-[Weiter zu Grundlagen 3](Grundlagen3) <br>
-[Zurück zur Kapitelübersicht](Kapiteluebersicht)
+[Weiter zu Grundlagen 3](Grundlagen3) | [Zurück zur Kapitelübersicht](Kapiteluebersicht)

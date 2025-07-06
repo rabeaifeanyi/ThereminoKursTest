@@ -101,5 +101,4 @@ Jetzt sollst du deinen eigenen Code schreiben, der die LED steuert.
 > - *Eine Abfrage, ob der Button **neu gedrückt wurde** (also vom Zustand HIGH auf LOW gewechselt ist).*
 > - *Ein Umschalten mit `digitalWrite` und `!` (Ausrufezeichen).*
 
-[Weiter zu Grundlagen 5](Grundlagen5) <br>
-[Zurück zur Kapitelübersicht](Kapiteluebersicht)
+[Weiter zu Grundlagen 5](Grundlagen5) | [Zurück zur Kapitelübersicht](Kapiteluebersicht)

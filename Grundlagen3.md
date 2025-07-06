@@ -46,5 +46,4 @@ Damit wir sehen können, ob der Button gedrückt ist, geben wir den Status im Se
 
 <a href="https://github.com/eg-lab/ThereminoKurs/blob/main/Grundlagen4.md">Weiter zu Grundlagen 4</a>
 
-[Weiter zu Grundlagen 4](Grundlagen4) <br>
-[Zurück zur Kapitelübersicht](Kapiteluebersicht)
+[Weiter zu Grundlagen 4](Grundlagen4) | [Zurück zur Kapitelübersicht](Kapiteluebersicht)
