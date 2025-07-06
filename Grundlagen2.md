@@ -16,7 +16,7 @@ Wir bauen die Schaltung auf dem **Breadboard** auf. Das Breadboard ist der Ort, 
 
 <p align="center"><img src="img/breadboard.jpg" width="300" alt="LED."></p>
 
-Mit den Kabel verbinden wir unsere Bauteile. Eine Konvention, an die wir uns halten wollen, ist: Alle Kabel, die zum Pluspol (*5V*) führen, sind rot, alle Kabel, die zum Minuspol (*G* / *Gnd*) führen, sind schwarz.
+Mit den Kabel verbinden wir unsere Bauteile. Eine Konvention, an die wir uns halten wollen, ist: Alle Kabel, die zum Pluspol (*5V* / *D1* / etc.) führen, sind rot, alle Kabel, die zum Minuspol (*G* / *Gnd*) führen, sind schwarz.
 
 > 🔴 Rote Kabel verbinden den Pluspol<br>
 > ⚫ Schwarze Kabel verbinden den Minuspol
