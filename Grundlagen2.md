@@ -5,7 +5,7 @@
 **LED** bedeutet *Light Emitting Diode*. LEDs können Licht produzieren, wenn man einen Strom an sie anlegt. Dabei ist es jedoch wichtig in welche Richtung man sie anschließt. Den Pluspol schließt man bei einer LED immer an das lange Beinchen, den Minuspol immer an das kürzere.
 <p align="center"><img src="img/LED_plus_minus.jpg" width="300" alt="LED."></p>
 
-> ➕ Langes Bein = Pluspol
+> ➕ Langes Bein = Pluspol <br>
 > ➖ Kurzes Bein = Minuspol
 
 Damit die LED nicht kaputtgeht, brauchst du einen **Widerstand**. Ein Widerstand ist ein elektrisches Bauteil, an dem Spannung abfällt. Er sorgt dafür, dass nicht zu viel Strom durch die LED fließt.
@@ -18,7 +18,7 @@ Wir bauen die Schaltung auf dem **Breadboard** auf. Das Breadboard ist der Ort, 
 
 Mit den Kabel verbinden wir unsere Bauteile. Eine Konvention, an die wir uns halten wollen, ist: Alle Kabel, die zum Pluspol (*5V*) führen, sind rot, alle Kabel, die zum Minuspol (*G* / *Gnd*) führen, sind schwarz.
 
-> 🔴 Rote Kabel verbinden den Pluspol
+> 🔴 Rote Kabel verbinden den Pluspol<br>
 > ⚫ Schwarze Kabel verbinden den Minuspol
 
 <p align="center"><img src="img/kabel_plus_minus.jpg" width="300" alt="LED."></p>
