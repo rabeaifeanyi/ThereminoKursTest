@@ -1,5 +1,7 @@
 # Grundlagen 4 - Button und LED verbinden ▶️ ➕ 💡
 
+[Zur Übersicht der Kapitel](Kapiteluebersicht)
+
 **In diesem Kapitel lernst du, wie du den Button mit einer LED verbindest.**  
 
 Die LED soll leuchten, solange du den Button gedrückt hältst. Damit das funktioniert, müssen wir zunächst ein neues Konzept verstehen: **Bedingungen**. Mit `if` (wenn) kannst du dem Arduino sagen:
@@ -99,4 +101,5 @@ Jetzt sollst du deinen eigenen Code schreiben, der die LED steuert.
 > - *Eine Abfrage, ob der Button **neu gedrückt wurde** (also vom Zustand HIGH auf LOW gewechselt ist).*
 > - *Ein Umschalten mit `digitalWrite` und `!` (Ausrufezeichen).*
 
-<a href="https://github.com/eg-lab/ThereminoKurs">Zur Übersicht der Kapitel</a>
+[Weiter zum nächsten Kapitel](Grundlagen5)
+[Zur Übersicht der Kapitel](Kapiteluebersicht)

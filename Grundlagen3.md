@@ -1,5 +1,7 @@
 # Grundlagen 3 - Button anschließen ▶️
 
+[Zur Übersicht der Kapitel](Kapiteluebersicht)
+
 **In diesem Kapitel lernst du, wie du einen Button anschließt und erkennst, ob er gedrückt ist.**
 
 **Button** bedeutet Schalter. Mit einem Button kannst du den Stromkreis schließen oder öffnen.
@@ -43,3 +45,6 @@ Damit wir sehen können, ob der Button gedrückt ist, geben wir den Status im Se
 > Wir nutzen `INPUT_PULLUP`. Das bedeutet, der Pin wird vom Arduino intern auf `HIGH` gezogen. Wenn du den Button drückst, wird der Pin auf GND gezogen – dann ist er `LOW`.*
 
 <a href="https://github.com/eg-lab/ThereminoKurs/blob/main/Grundlagen4.md">Weiter zu Grundlagen 4</a>
+
+[Weiter zum nächsten Kapitel](Grundlagen4)
+[Zur Übersicht der Kapitel](Kapiteluebersicht)
