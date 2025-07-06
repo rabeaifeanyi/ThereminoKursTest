@@ -83,7 +83,7 @@ Jetzt sollst du deinen eigenen Code schreiben, der die LED steuert.
 
 ---
 
-## ✨ Bonusaufgabe für ganz Schnelle (vielleicht zu schwer)
+## ✨ Bonusaufgabe für ganz Schnelle
 
 **Kannst du den Button so programmieren, dass die LED bei jedem Drücken umschaltet?**
 
@@ -93,73 +93,10 @@ Jetzt sollst du deinen eigenen Code schreiben, der die LED steuert.
 - Beim dritten Druck wieder an.
 - Und so weiter.
 
-> 💡 *Tipp:*
+> 💡 *Tipp: Du brauchst folgende Komponenten.*
 >
-> Dafür brauchst du:
-> - Eine Variable, die speichert, ob die LED gerade an oder aus ist.
-> - Eine Abfrage, ob der Button **neu gedrückt wurde** (also vom Zustand HIGH auf LOW gewechselt ist).
-> - Ein Umschalten mit `digitalWrite` und `!` (Ausrufezeichen).
-
-
-
+> - *Eine Variable, die speichert, ob die LED gerade an oder aus ist.*
+> - *Eine Abfrage, ob der Button **neu gedrückt wurde** (also vom Zustand HIGH auf LOW gewechselt ist).*
+> - *Ein Umschalten mit `digitalWrite` und `!` (Ausrufezeichen).*
 
 <a href="https://github.com/eg-lab/ThereminoKurs">Zur Übersicht der Kapitel</a>
-
----
-
-## Lösungsvorschlag
-
-```cpp
-#define buttonPin D1
-#define ledPin D7
-
-void setup() {
-  Serial.begin(9600);
-  pinMode(buttonPin, INPUT_PULLUP);
-  pinMode(ledPin, OUTPUT);
-}
-
-void loop() {
-  int buttonStatus = digitalRead(buttonPin);
-
-  if (buttonStatus == LOW) {
-    digitalWrite(ledPin, HIGH);
-  }
-  else {
-    digitalWrite(ledPin, LOW);
-  }
-}
-```
-
-## Lösungsvorschlag für die Bonusaufgabe
-
-```cpp
-#define buttonPin D1
-#define ledPin D7
-
-bool ledState = false;
-bool lastButtonState = HIGH;
-
-void setup() {
-  pinMode(buttonPin, INPUT_PULLUP);
-  pinMode(ledPin, OUTPUT);
-}
-
-void loop() {
-  bool currentButtonState = digitalRead(buttonPin);
-
-  // Prüfen, ob der Button gerade gedrückt wurde
-  if (lastButtonState == HIGH && currentButtonState == LOW) {
-    // LED-Zustand umschalten
-    ledState = !ledState;
-  }
-
-  // LED schalten
-  digitalWrite(ledPin, ledState ? HIGH : LOW);
-
-  // Aktuellen Zustand merken
-  lastButtonState = currentButtonState;
-
-  delay(50);
-}
-```
