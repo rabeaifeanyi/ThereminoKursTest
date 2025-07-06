@@ -1,7 +1,5 @@
 # Kapitelübersicht
 
-Hier findest du alle Kapitel:
-
 ## Grundlagen
 
 - [Grundlagen 1 – LED anschließen](Grundlagen1)
