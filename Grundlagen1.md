@@ -1,7 +1,5 @@
 ## Grundlagen 1 - Den Arduino kennenlernen
 
-[Zurück zur Kapitelübersicht](Kapiteluebersicht)
-
 Wie ihr wisst, wollen wir heute mit Arduinos arbeiten. Aber was ist das überhaupt? Ein Arduino ist ein Mikrocontroller, also im Prinzip ein kleiner Computer, der auf ein bestimmte Aufgabe spezialisiert ist. Man kann sie selber programmieren, damit sie genau das machen was Du möchtest.
 
 Aber wie arbeitet man mit einem Arduino. Am wichtigsten für die Kommunikation mit dem Arduino sind die verschiedenen Anschlüsse oder Pins.
@@ -99,5 +97,3 @@ Kommentare macht man mit //
 
 
 Das müsste alles sein für das Thema, fas muss aber noch alles angepasst werden.
-
-[Weiter zu Grundlagen 2](Grundlagen2) \| [Zurück zur Kapitelübersicht](Kapiteluebersicht)
