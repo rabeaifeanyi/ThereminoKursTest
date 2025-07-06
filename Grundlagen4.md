@@ -1,6 +1,6 @@
 # Grundlagen 4 - Button und LED verbinden ▶️ ➕ 💡
 
-[Zur Übersicht der Kapitel](Kapiteluebersicht)
+[Zurück zur Kapitelübersicht](Kapiteluebersicht)
 
 **In diesem Kapitel lernst du, wie du den Button mit einer LED verbindest.**  
 
@@ -101,5 +101,5 @@ Jetzt sollst du deinen eigenen Code schreiben, der die LED steuert.
 > - *Eine Abfrage, ob der Button **neu gedrückt wurde** (also vom Zustand HIGH auf LOW gewechselt ist).*
 > - *Ein Umschalten mit `digitalWrite` und `!` (Ausrufezeichen).*
 
-[Weiter zum nächsten Kapitel](Grundlagen5)
-[Zur Übersicht der Kapitel](Kapiteluebersicht)
+[Weiter zu Grundlagen 5](Grundlagen5) <br>
+[Zurück zur Kapitelübersicht](Kapiteluebersicht)

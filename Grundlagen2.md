@@ -1,6 +1,6 @@
 # Grundlagen 2 - LED anschließen 💡
 
-[Zur Übersicht der Kapitel](Kapiteluebersicht)
+[Zurück zur Kapitelübersicht](Kapiteluebersicht)
 
 **In diesem Kapitel lernst du, wie du eine LED richtig anschließt und sie mit dem Arduino blinken lässt.**
 
@@ -54,7 +54,5 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
 
 > *💡 Tipp: Wenn du nichts beobachten kannst, überprüfe bitte deine Schaltung.*
 
-<a href="https://github.com/eg-lab/ThereminoKurs/blob/main/Grundlagen3.md"> Weiter zu Grundlagen 3 </a>
-
-[Weiter zum nächsten Kapitel](Grundlagen3)
-[Zur Übersicht der Kapitel](Kapiteluebersicht)
+[Weiter zu Grundlagen 3](Grundlagen3) <br>
+[Zurück zur Kapitelübersicht](Kapiteluebersicht)
