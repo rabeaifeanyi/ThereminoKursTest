@@ -2,7 +2,7 @@
 body {
     font: 1rem 'Roboto', 'Trebuchet MS', sans-serif;
     color: #413F3F;
-    background-color: #f8f9ff;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -24,10 +24,10 @@ body {
   
   /* Aufgaben-Box */
   div.aufgabe {
-    border: 1px solid #F8C77A;
+    border: 1px solid #6271e5b9;
     border-radius: 6px;
     padding: 1em;
-    color: #E69735;
+    color: #5C67DB;
     margin: 1em 0;
   }
   
