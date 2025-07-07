@@ -5,12 +5,9 @@
   <a href="Grundlagen3" class="button">Weiter</a>
 </div>
 
-# Grundlagen 2 – LED anschließen 💡
+<p class="spacing-3"></p>
 
-<details>
-<summary>💡 Hinweis anzeigen</summary>
-<p>Wenn du nichts siehst, überprüfe deine Schaltung.</p>
-</details>
+# Grundlagen 2 – LED anschließen 💡
 
 **In diesem Kapitel lernst du, wie du eine LED richtig anschließt und sie mit dem Arduino blinken lässt.**
 
@@ -86,7 +83,7 @@ void loop() {
 <p><em>Wenn du nichts beobachten kannst, überprüfe bitte deine Schaltung.</em></p>
 </details>
 
----
+<p class="spacing-3"></p>
 
 <div class="nav-container">
   <a href="Grundlagen1" class="button">Zurück</a>

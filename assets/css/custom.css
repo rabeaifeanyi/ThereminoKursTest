@@ -20,6 +20,7 @@ body {
   /* Überschriften */
   h1, h2{
     color: #413F3F;
+
   }
 
   h3 {
@@ -38,14 +39,13 @@ body {
   
   /* Merkkasten */
   div.merkbox {
-    background: #70eabd23;
-    border: 2px solid #70EABE;
+    border: 1px solid #70EABE;
     border-radius: 11px;
     padding: 1em;
     margin: 1em 0;
   }
 
-  
+
   
   /* Buttons */
   a.button {
@@ -86,7 +86,7 @@ body {
     font-style: italic;
     font-weight: normal;
   }
-  
+
   
   /* Tabellen */
   table {
@@ -113,3 +113,15 @@ body {
     text-align: center;
   }
   
+
+  .spacing-2 {
+    margin-top: 2em;
+  }
+  
+  .spacing-3 {
+    margin-top: 3em;
+  }
+  
+  .spacing-5 {
+    margin-top: 5em;
+  }
