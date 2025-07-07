@@ -1,0 +1,38 @@
+
+a.button {
+    display: inline-block;
+    background: #e8f0fe;
+    color: #333;
+    padding: 0.4em 1em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid #d2e3fc;
+  }
+  
+  /* Aufgaben-Box */
+  div.aufgabe {
+    border: 1px solid #ccd6dd;
+    border-radius: 6px;
+    padding: 1em;
+    color: #5a3ec8;
+  }
+  
+  /* Merkkasten */
+  div.merkbox {
+    background: #eef3f7;
+    border: 1px solid #ccd6dd;
+    padding: 1em;
+    border-radius: 6px;
+  }
+  
+  /* Abgerundete Bilder */
+  img.rounded {
+    border-radius: 8px;
+  }
+  
+  /* Hinweise in kursiv */
+  details p {
+    font-style: italic;
+  }
+  
