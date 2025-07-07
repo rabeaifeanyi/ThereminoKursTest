@@ -1,8 +1,8 @@
 /* Grundschrift */
 body {
     font: 1rem 'Roboto', 'Trebuchet MS', sans-serif;
-    color: #5f6368;
-    background-color: #ffffff;
+    color: #413F3F;
+    background-color: #f8f9ff;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -10,7 +10,7 @@ body {
   
   /* Links */
   a {
-    color: #4d7d66;
+    color: #5C67DB;
     text-decoration: none;
   }
   a:hover {
@@ -19,22 +19,22 @@ body {
   
   /* Überschriften */
   h1, h2, h3 {
-    color: #4d7d66;
+    color: #6FEBBD;
   }
   
   /* Aufgaben-Box */
   div.aufgabe {
-    border: 1px solid #dadce0;
+    border: 1px solid #c4ccfe91;
     border-radius: 6px;
     padding: 1em;
-    color: #4d7d66;
+    color: #6FEBBD;
     margin: 1em 0;
   }
   
   /* Merkkasten */
   div.merkbox {
-    background: #f6f7f8;
-    border: 1px solid #dadce0;
+    background: #f8f9ff;
+    border: 1px solid #c4ccfe91;
     border-radius: 6px;
     padding: 1em;
     margin: 1em 0;
@@ -43,22 +43,22 @@ body {
   /* Buttons */
   a.button {
     display: inline-block;
-    background-color: #5f9c80;
-    color: white;
+    background-color: #6272E5;
+    color: #f8f9ff;
     padding: 0.4em 1em;
     border-radius: 4px;
     text-decoration: none;
     font-weight: 500;
     font-size: 0.9rem;
     border: none;
-    box-shadow: 0 2px 4px #0000001a;
+    box-shadow: 0 2px 4px #c4ccfe91;
     transition: background-color 0.2s ease;
   }
   a.button:hover {
-    background-color: #5f9c80be;
+    background-color: #6271e5a1;
   }
   a.button:active {
-    background-color: #4d7d66;
+    background-color: #6272E5;
   }
   
   /* Abgerundete Bilder */
@@ -77,11 +77,11 @@ body {
     width: 100%;
   }
   table th, table td {
-    border: 1px solid #dadce0;
+    border: 1px solid #c4ccfe91;
     padding: 0.5em;
   }
   table th {
-    background: #f6f7f8;
+    background: #f8f9ff;
   }
   
   /* Zentrale Navigation */
