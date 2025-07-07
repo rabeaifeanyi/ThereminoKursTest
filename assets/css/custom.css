@@ -27,7 +27,7 @@ body {
     color: #5C67DB;
   }
 
-  
+
   /* Aufgaben-Box */
   div.aufgabe {
     border: 1px solid #6271e5b9;
@@ -127,6 +127,10 @@ body {
   .centered {
     text-align: center;
   }
+
+  .spacing-1 {
+    margin-top: 1em;
+  }
   
   .spacing-2 {
     margin-top: 2em;
@@ -134,9 +138,6 @@ body {
 
   .spacing-3 {
     margin-top: 3em;
-  }
-  .spacing-5 {
-    margin-top: 5em;
   }
 
   pre {
