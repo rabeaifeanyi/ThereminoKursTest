@@ -49,7 +49,6 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
 
 
 <div class="schaltplan-box">
-  <p><strong>Schaltplan LED</strong></p>
   <img src="img/Schaltung_g2.jpg" alt="Schaltplan LED">
 </div>
 
@@ -60,6 +59,15 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
   <li>Baue die Schaltung aus dem Schaltplan nach.</li>
   <li>Lade folgenden Code auf den Arduino hoch:</li>
 </ul>
+
+```cpp
+#define ledPin D1
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+}
+```
+
 
 <pre><code>#define ledPin D1
 

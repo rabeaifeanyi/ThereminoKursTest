@@ -74,14 +74,14 @@ body {
   
   /* Summary (Titel der ausklappbaren Box) */
   details summary {
-    color: #51cea0;
+    color: #413F3F;
     font-weight: bold;
     cursor: pointer;
   }
   
   /* Inhalt der Box */
   details p {
-    color: #51cea0;
+    color: #413F3F;
     font-style: italic;
     font-weight: normal;
   }
@@ -91,7 +91,7 @@ body {
     background: #ffffff;
     border: 1px solid #6272E5;
     border-radius: 11px;
-    padding: 3em;
+    padding: 1em;
     margin: 1em 0;
     text-align: center;
     /* box-shadow: 0 2px 4px rgba(0,0,0,0.05);  */
