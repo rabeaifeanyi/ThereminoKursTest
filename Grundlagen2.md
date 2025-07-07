@@ -5,7 +5,10 @@
   <a href="Grundlagen3" class="button">Weiter</a>
 </div>
 
-<p class="spacing-5"></p>
+<p class="spacing-3">&nbsp;</p>
+<p class="spacing-3">&nbsp;</p>
+<p class="spacing-3">&nbsp;</p>
+
 
 # Grundlagen 2 – LED anschließen 💡
 
@@ -52,22 +55,12 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
   <img src="img/Schaltung_g2.jpg" alt="Schaltplan LED">
 </div>
 
-```cpp
-#define ledPin D1
-
-void setup() {
-  pinMode(ledPin, OUTPUT);
-}
-```
-
-
 <div class="aufgabe">
 <h3>🛠️ Aufgabe</h3>
 <ul>
   <li>Baue die Schaltung aus dem Schaltplan nach.</li>
   <li>Lade folgenden Code auf den Arduino hoch:</li>
 </ul>
-
 
 
 <pre><code>#define ledPin D1
