@@ -5,10 +5,7 @@
   <a href="Grundlagen3" class="button">Weiter</a>
 </div>
 
-<p class="spacing-3">&nbsp;</p>
-<p class="spacing-3">&nbsp;</p>
-<p class="spacing-3">&nbsp;</p>
-
+<p class="spacing-5">&nbsp;</p>
 
 # Grundlagen 2 – LED anschließen 💡
 
@@ -21,7 +18,7 @@
 </p>
 
 <div class="merkbox">
-➕ Langes Bein = Pluspol <br> 
+➕ Langes Bein = Pluspol <br>
 ➖ Kurzes Bein = Minuspol
 </div>
 
@@ -40,7 +37,7 @@ Wir bauen die Schaltung auf dem **Breadboard** auf. Das Breadboard ist der Ort, 
 Mit den Kabel verbinden wir unsere Bauteile. Eine Konvention, an die wir uns halten wollen, ist: Alle Kabel, die zum Pluspol (*5V* / *D1* / etc.) führen, sind rot, alle Kabel, die zum Minuspol (*G* / *Gnd*) führen, sind schwarz.
 
 <div class="merkbox">
-🔴 Rote Kabel verbinden den Pluspol  <br> 
+🔴 Rote Kabel verbinden den Pluspol  <br>
 ⚫ Schwarze Kabel verbinden den Minuspol
 </div>
 
@@ -49,7 +46,6 @@ Mit den Kabel verbinden wir unsere Bauteile. Eine Konvention, an die wir uns hal
 </p>
 
 Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schauen. Dieser sieht wie folgt aus:
-
 
 <div class="schaltplan-box">
   <img src="img/Schaltung_g2.jpg" alt="Schaltplan LED">
@@ -62,8 +58,7 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
   <li>Lade folgenden Code auf den Arduino hoch:</li>
 </ul>
 
-
-<pre><code>#define ledPin D1
+<pre class="no-bg"><code>#define ledPin D1
 
 void setup() {
   pinMode(ledPin, OUTPUT);
@@ -87,9 +82,9 @@ void loop() {
 <p><em>Wenn du nichts beobachten kannst, überprüfe bitte deine Schaltung.</em></p>
 </details>
 
-<p class="spacing-5"></p>
+<p class="spacing-5">&nbsp;</p>
 
---- 
+---
 
 <div class="nav-container">
   <a href="Grundlagen1" class="button">Zurück</a>

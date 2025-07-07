@@ -26,7 +26,7 @@ body {
   h3 {
     color: #5C67DB;
   }
-  
+
   
   /* Aufgaben-Box */
   div.aufgabe {
@@ -128,14 +128,6 @@ body {
     text-align: center;
   }
   
-
-  .spacing-2 {
-    margin-top: 2em;
-  }
-  
-  .spacing-3 {
-    margin-top: 3em;
-  }
   
   .spacing-5 {
     margin-top: 5em;
