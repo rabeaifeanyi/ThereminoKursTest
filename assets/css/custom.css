@@ -2,7 +2,7 @@
 body {
     font: 1rem 'Roboto', 'Trebuchet MS', sans-serif;
     color: #413F3F;
-    background-color: #f8f9ffb6;
+    background-color: #f5f6f8b6;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -128,7 +128,13 @@ body {
     text-align: center;
   }
   
-  
+  .spacing-2 {
+    margin-top: 2em;
+  }
+
+  .spacing-3 {
+    margin-top: 3em;
+  }
   .spacing-5 {
     margin-top: 5em;
   }

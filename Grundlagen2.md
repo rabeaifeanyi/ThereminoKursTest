@@ -5,7 +5,9 @@
   <a href="Grundlagen3" class="button">Weiter</a>
 </div>
 
-<p class="spacing-5">&nbsp;</p>
+---
+
+<p class="spacing-2">&nbsp;</p>
 
 # Grundlagen 2 – LED anschließen 💡
 
@@ -82,7 +84,7 @@ void loop() {
 <p><em>Wenn du nichts beobachten kannst, überprüfe bitte deine Schaltung.</em></p>
 </details>
 
-<p class="spacing-5">&nbsp;</p>
+<p class="spacing-2">&nbsp;</p>
 
 ---
 
