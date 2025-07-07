@@ -16,7 +16,7 @@
 </p>
 
 <div class="merkbox">
-➕ Langes Bein = Pluspol  
+➕ Langes Bein = Pluspol <br> 
 ➖ Kurzes Bein = Minuspol
 </div>
 
@@ -35,7 +35,7 @@ Wir bauen die Schaltung auf dem **Breadboard** auf. Das Breadboard ist der Ort, 
 Mit den Kabel verbinden wir unsere Bauteile. Eine Konvention, an die wir uns halten wollen, ist: Alle Kabel, die zum Pluspol (*5V* / *D1* / etc.) führen, sind rot, alle Kabel, die zum Minuspol (*G* / *Gnd*) führen, sind schwarz.
 
 <div class="merkbox">
-🔴 Rote Kabel verbinden den Pluspol  
+🔴 Rote Kabel verbinden den Pluspol  <br> 
 ⚫ Schwarze Kabel verbinden den Minuspol
 </div>
 
