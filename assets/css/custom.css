@@ -1,29 +1,64 @@
-
-a.button {
-    display: inline-block;
-    background: #e8f0fe;
-    color: #333;
-    padding: 0.4em 1em;
-    border-radius: 4px;
+/* Grundschrift */
+body {
+    font: 1rem 'Roboto', 'Trebuchet MS', sans-serif;
+    color: #5f6368;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Links */
+  a {
+    color: #4d7d66;
     text-decoration: none;
-    font-weight: 500;
-    border: 1px solid #d2e3fc;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Überschriften */
+  h1, h2, h3 {
+    color: #4d7d66;
   }
   
   /* Aufgaben-Box */
   div.aufgabe {
-    border: 1px solid #ccd6dd;
+    border: 1px solid #dadce0;
     border-radius: 6px;
     padding: 1em;
-    color: #5a3ec8;
+    color: #4d7d66;
+    margin: 1em 0;
   }
   
   /* Merkkasten */
   div.merkbox {
-    background: #eef3f7;
-    border: 1px solid #ccd6dd;
-    padding: 1em;
+    background: #f6f7f8;
+    border: 1px solid #dadce0;
     border-radius: 6px;
+    padding: 1em;
+    margin: 1em 0;
+  }
+  
+  /* Buttons */
+  a.button {
+    display: inline-block;
+    background-color: #5f9c80;
+    color: white;
+    padding: 0.4em 1em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: none;
+    box-shadow: 0 2px 4px #0000001a;
+    transition: background-color 0.2s ease;
+  }
+  a.button:hover {
+    background-color: #5f9c80be;
+  }
+  a.button:active {
+    background-color: #4d7d66;
   }
   
   /* Abgerundete Bilder */
@@ -31,8 +66,33 @@ a.button {
     border-radius: 8px;
   }
   
-  /* Hinweise in kursiv */
+  /* Hinweise (ausklappbar) */
   details p {
     font-style: italic;
+  }
+  
+  /* Tabellen */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  table th, table td {
+    border: 1px solid #dadce0;
+    padding: 0.5em;
+  }
+  table th {
+    background: #f6f7f8;
+  }
+  
+  /* Zentrale Navigation */
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+  }
+  
+  /* Zentrierte Box */
+  .centered {
+    text-align: center;
   }
   
