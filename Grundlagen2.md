@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="assets/css/custom.css">
 
-# Grundlagen 2 – LED anschließen 💡
-
 <div class="nav-container">
-  <a href="Grundlagen1" class="button">⬅️ Zurück</a>
-  <a href="Grundlagen3" class="button">Weiter ➡️</a>
+  <a href="Grundlagen1" class="button">Zurück</a>
+  <a href="Grundlagen3" class="button">Weiter</a>
 </div>
+
+# Grundlagen 2 – LED anschließen 💡
 
 **In diesem Kapitel lernst du, wie du eine LED richtig anschließt und sie mit dem Arduino blinken lässt.**
 
@@ -49,7 +49,6 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
   <img src="img/Schaltung_g2.jpg" width="500" class="rounded" alt="Schaltplan LED.">
 </p>
 
----
 
 <div class="aufgabe">
 <h3>🛠️ Aufgabe</h3>
@@ -58,8 +57,7 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
   <li>Lade folgenden Code auf den Arduino hoch:</li>
 </ul>
 
-```cpp
-#define ledPin D1
+<pre><code>#define ledPin D1
 
 void setup() {
   pinMode(ledPin, OUTPUT);
@@ -71,7 +69,7 @@ void loop() {
   digitalWrite(ledPin, LOW);
   delay(500);
 }
-```
+</code></pre>
 
 <ul>
   <li>Beobachte, was passiert. Was macht der Code?</li>
@@ -86,6 +84,6 @@ void loop() {
 ---
 
 <div class="nav-container">
-  <a href="Grundlagen1" class="button">⬅️ Zurück</a>
-  <a href="Grundlagen3" class="button">Weiter ➡️</a>
+  <a href="Grundlagen1" class="button">Zurück</a>
+  <a href="Grundlagen3" class="button">Weiter</a>
 </div>
