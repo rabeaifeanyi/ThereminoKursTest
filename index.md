@@ -1,8 +1,3 @@
----
-layout: default
-title: Willkommen
----
-
 # Theremino 
 
 ##  Baue dein eigenes Musikinstrument mit einem Arduino
@@ -33,3 +28,4 @@ Ein Theremin ist ein Instrument, das berührungslos gespielt wird. Anders als be
 
 - [Theremin bauen](Theremin)
 
+- [Test](testseite)
