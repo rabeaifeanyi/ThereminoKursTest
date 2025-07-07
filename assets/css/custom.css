@@ -33,12 +33,14 @@ body {
   
   /* Merkkasten */
   div.merkbox {
-    background: #6febbe3f;
-    border: 1px solid #6FEBBD;
+    background: #f7c375be;
+    border: 1px solid #F79634;
     border-radius: 6px;
     padding: 1em;
     margin: 1em 0;
   }
+
+  
   
   /* Buttons */
   a.button {
@@ -66,10 +68,20 @@ body {
     border-radius: 11px;
   }
   
-  /* Hinweise (ausklappbar) */
-  details p {
-    font-style: italic;
+  /* Summary (Titel der ausklappbaren Box) */
+  details summary {
+    color: #EF80F8;
+    font-weight: bold;
+    cursor: pointer;
   }
+  
+  /* Inhalt der Box */
+  details p {
+    color: #EF80F8;
+    font-style: italic;
+    font-weight: normal;
+  }
+  
   
   /* Tabellen */
   table {
