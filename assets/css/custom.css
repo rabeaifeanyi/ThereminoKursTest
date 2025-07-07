@@ -2,7 +2,7 @@
 body {
     font: 1rem 'Roboto', 'Trebuchet MS', sans-serif;
     color: #413F3F;
-    background-color: #ffffff;
+    background-color: #F6F6F6;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -44,8 +44,6 @@ body {
     padding: 1em;
     margin: 1em 0;
   }
-
-
   
   /* Buttons */
   a.button {
@@ -86,6 +84,24 @@ body {
     font-style: italic;
     font-weight: normal;
   }
+
+  /* Schaltplan-Box */
+  div.schaltplan-box {
+    background: #ffffff;
+    border: 1px solid #6272E5;
+    border-radius: 11px;
+    padding: 3em;
+    margin: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+  }
+  
+  div.schaltplan-box img {
+    border-radius: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  
 
   
   /* Tabellen */

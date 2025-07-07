@@ -51,9 +51,10 @@ Mit den Kabel verbinden wir unsere Bauteile. Eine Konvention, an die wir uns hal
 
 Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schauen. Dieser sieht wie folgt aus:
 
-<p align="center">
-  <img src="img/Schaltung_g2.jpg" width="500" class="rounded" alt="Schaltplan LED.">
-</p>
+
+<div class="schaltplan-box">
+  <img src="img/Schaltung_g2.jpg" alt="Schaltplan LED">
+</div>
 
 
 <div class="aufgabe">
