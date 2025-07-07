@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/custom.css">
+<link rel="stylesheet" href="assets/css/custom.css?v=2">
 
 <div class="nav-container">
   <a href="Grundlagen1" class="button">Zurück</a>
