@@ -2,7 +2,7 @@
 body {
     font: 1rem 'Roboto', 'Trebuchet MS', sans-serif;
     color: #413F3F;
-    background-color: #F6F6F6;
+    background-color: #f8f9ff;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -39,6 +39,7 @@ body {
   
   /* Merkkasten */
   div.merkbox {
+    background: #ffffff;
     border: 1px solid #70EABE;
     border-radius: 11px;
     padding: 1em;
@@ -73,14 +74,14 @@ body {
   
   /* Summary (Titel der ausklappbaren Box) */
   details summary {
-    color: #F79634;
+    color: #51cea0;
     font-weight: bold;
     cursor: pointer;
   }
   
   /* Inhalt der Box */
   details p {
-    color: #F79634;
+    color: #51cea0;
     font-style: italic;
     font-weight: normal;
   }
@@ -93,7 +94,7 @@ body {
     padding: 3em;
     margin: 1em 0;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.05);  */
   }
   
   div.schaltplan-box img {
@@ -102,7 +103,6 @@ body {
     width: 100%;
     height: auto;
   }
-
   
   /* Tabellen */
   table {

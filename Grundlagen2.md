@@ -49,6 +49,7 @@ Um zu wissen, wie man Bauteile verbinden soll, kann man in den Schaltplan schaue
 
 
 <div class="schaltplan-box">
+  <p><strong>Schaltplan LED</strong></p>
   <img src="img/Schaltung_g2.jpg" alt="Schaltplan LED">
 </div>
 
