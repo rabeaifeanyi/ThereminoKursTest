@@ -18,14 +18,19 @@ body {
   }
   
   /* Überschriften */
-  h1, h2, h3 {
+  h1, h2{
     color: #413F3F;
   }
+
+  h3 {
+    color: #5C67DB;
+  }
+  
   
   /* Aufgaben-Box */
   div.aufgabe {
     border: 1px solid #6271e5b9;
-    border-radius: 6px;
+    border-radius: 11px;
     padding: 1em;
     color: #5C67DB;
     margin: 1em 0;
@@ -33,9 +38,9 @@ body {
   
   /* Merkkasten */
   div.merkbox {
-    background: #f7c375be;
-    border: 1px solid #F79634;
-    border-radius: 6px;
+    background: #70eabd23;
+    border: 2px solid #70EABE;
+    border-radius: 11px;
     padding: 1em;
     margin: 1em 0;
   }
@@ -48,7 +53,7 @@ body {
     background-color: #6272E5;
     color: #f8f9ff;
     padding: 0.4em 1em;
-    border-radius: 4px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
     font-size: 0.9rem;
@@ -70,14 +75,14 @@ body {
   
   /* Summary (Titel der ausklappbaren Box) */
   details summary {
-    color: #EF80F8;
+    color: #F79634;
     font-weight: bold;
     cursor: pointer;
   }
   
   /* Inhalt der Box */
   details p {
-    color: #EF80F8;
+    color: #F79634;
     font-style: italic;
     font-weight: normal;
   }
