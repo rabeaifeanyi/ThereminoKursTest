@@ -7,10 +7,6 @@
 
 <p class="spacing-5"></p>
 
----
-
-<p class="spacing-5"></p>
-
 # Grundlagen 2 – LED anschließen 💡
 
 **In diesem Kapitel lernst du, wie du eine LED richtig anschließt und sie mit dem Arduino blinken lässt.**
@@ -90,9 +86,7 @@ void loop() {
 
 <p class="spacing-5"></p>
 
----
-
-<p class="spacing-5"></p>
+--- 
 
 <div class="nav-container">
   <a href="Grundlagen1" class="button">Zurück</a>
