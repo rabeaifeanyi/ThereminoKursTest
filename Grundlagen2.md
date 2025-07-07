@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="assets/css/custom.css">
+
 # Grundlagen 2 – LED anschließen 💡
 
 <div style="display:flex; justify-content:space-between; margin-bottom:1em;">
